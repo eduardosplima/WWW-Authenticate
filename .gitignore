@@ -1,0 +1,32 @@
+# Ignore the bin and obj directories
+bin/
+obj/
+
+# Ignore other common directories that should not be committed
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ds_store
+*.cache
+*.csproj.user
+*.swp
+*.*~
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore all build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
